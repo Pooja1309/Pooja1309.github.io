@@ -1,0 +1,91 @@
+header,footer{
+	font-size:120%;
+	color:rgb(65,105,225);
+	background-color:rgba(255,255,255,.4);
+	border:2%;
+	padding:2%;
+	margin-bottom:4%;
+}
+
+h2{
+	color:rgb(0,0,255);
+	font-size:200%;
+}
+
+h3{
+	color:blue;
+}
+
+h4{
+	color:rgb(139,0,0);
+	font-size:170%;
+}
+
+header{
+	text-align:center;
+}
+
+nav{
+	text-align:center;
+}
+
+
+nav a{
+	background-color:rgba(255,255,255,.4);
+	padding: 10px;
+	margin: 1%; 
+	text-decoration: none; 
+	border-radius: 5px; 
+	color:rgb(75,0,130);
+}
+
+.active {
+	background: #FFFFFF; 
+	color:blue;
+	font-weight:bold;
+}
+
+
+body{
+	background-color:rgba(255,255,255,.4);
+	margin:4%;
+	background-image: url("../images/body.jpg");
+	background-size:100%;
+	background-repeat:repeat;
+}
+
+section{
+	background-color:rgb(255,255,255);
+	margin-top:2%;
+	margin-bottom:2%;
+	padding:2%;
+	margin:2%;
+}
+
+div{
+	background-color:rgba(255,255,255,.7);
+	display:block;
+	padding:4%;
+	margin:4%;
+	height:40%;
+	border:4%;
+}
+
+p{
+	font-size:150%;
+	color:rgb(139,0,0);
+}
+
+footer{
+	text-align:left;
+	display:block;
+	clear:both;
+}
+
+footer a{
+	background-color:rgba(255,255,255,.8);
+	padding: 10px;
+	margin: 1%; 
+	text-decoration: none; 
+	border-radius: 5px; 
+}
