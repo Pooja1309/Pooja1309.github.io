@@ -1,24 +1,27 @@
 header,footer{
 	font-size:120%;
-	color:rgb(65,105,225);
-	background-color:rgba(255,255,255,.4);
+	color:rgb(139,0,0);
+	background-color:rgba(255,255,255,.8);
 	border:2%;
 	padding:2%;
 	margin-bottom:4%;
+	font-family:Arial;
 }
 
 h2{
-	color:rgb(0,0,255);
+	color:#000000;
 	font-size:200%;
+	font-family:Arial;
 }
 
 h3{
-	color:blue;
+	color:red;
 }
 
 h4{
 	color:rgb(139,0,0);
 	font-size:170%;
+	font-family:sans-serif;
 }
 
 header{
@@ -31,23 +34,23 @@ nav{
 
 
 nav a{
-	background-color:rgba(255,255,255,.4);
+	background-color:#000000;
 	padding: 10px;
 	margin: 1%; 
 	text-decoration: none; 
 	border-radius: 5px; 
-	color:rgb(75,0,130);
+	color:#FFFFFF;
 }
 
 .active {
-	background: #FFFFFF; 
-	color:blue;
+	background: #FF0000; 
+	color:white;
 	font-weight:bold;
 }
 
 
 body{
-	background-color:rgba(255,255,255,.4);
+	background-color:rgba(255,255,255,.8);
 	margin:4%;
 	background-image: url("../images/body.jpg");
 	background-size:100%;
@@ -74,12 +77,14 @@ div{
 p{
 	font-size:150%;
 	color:rgb(139,0,0);
+	font-family:sans-serif;
 }
 
 footer{
 	text-align:left;
 	display:block;
 	clear:both;
+	font-family:Arial;
 }
 
 footer a{
@@ -88,4 +93,5 @@ footer a{
 	margin: 1%; 
 	text-decoration: none; 
 	border-radius: 5px; 
+	font-family:Arial;
 }
