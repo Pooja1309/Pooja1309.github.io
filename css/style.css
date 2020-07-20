@@ -28,8 +28,11 @@ nav{
 	text-align:center;
 }
 
+label{
+	display:block;
+}
 
-nav a{
+nav a,a{
 	background-color:#000000;
 	padding: 10px;
 	margin: 1%; 
@@ -58,6 +61,37 @@ body{
 	background-repeat:repeat;
 }
 
+.thriller{
+	display:inline-block;
+}
+
+h2{
+	text-align:center;
+}
+
+img{
+	display:inline-block;
+	text-align:center;
+}
+
+.left{
+	text-align:center;
+	display:inline-block; 
+	width:30%;	
+}
+
+.center{
+	text-align:center;
+	display:inline-block;
+	width:30%;
+}
+
+.right{
+	text-align:center;
+	display:inline-block;
+	width:30%;
+}
+
 section{
 	background-color:rgb(255,255,255);
 	margin-top:2%;
@@ -66,10 +100,14 @@ section{
 	margin:4%;
 }
 
+h1{
+	text-align:center;
+}
 
 
 a:hover{
 	background-color:#FF0000;
+	
 }
 
 .right{
