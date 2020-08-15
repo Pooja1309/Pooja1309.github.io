@@ -2,26 +2,15 @@ header{
 	color:rgb(139,0,0);
 	background-color:rgba(255,255,255,.7);
 	border:2%;
-	padding:2%;
+	padding:4%;
 	margin:4%;
 	font-family:Arial;
 	text-align:center;
 }
 
-h2{
-	color:#000000;
-	font-size:140%;
-	font-family:Arial;
-}
-
-/*h3{
-	color:red;
-	font-size:100%;
-}*/
 
 header{
 	text-align:center;
-	font-size:120%;
 }
 
 nav{
@@ -32,7 +21,7 @@ label{
 	display:block;
 }
 
-nav a,a{
+nav a{
 	background-color:#000000;
 	padding: 10px;
 	margin: 1%; 
@@ -44,6 +33,10 @@ nav a,a{
 	transition-duration:.2s;
 	transition-timing-function: linear;
 	transition-delay: .2s;
+}
+
+a:hover{
+	background-color:#FF0000;
 }
 
 /*.active {
@@ -61,28 +54,9 @@ body{
 	background-repeat:repeat;
 }
 
-
-h2{
-	text-align:center;
-}
-
 img{
-	display:inline-block;
-	text-align:center;
+	width:30vw;
 }
-
-.left{
-	text-align:center;
-	display:inline-block; 
-	width:30%;	
-}
-
-.center{
-	text-align:center;
-	display:inline-block;
-	width:30%;
-}
-
 
 section{
 	background-color:rgb(255,255,255);
@@ -92,48 +66,29 @@ section{
 	margin:4%;
 }
 
-.main{
-	overflow:scroll;
-	overflow-x:hidden;
-	max-height:700px;
-}
-
 h1{
+	font-size:200%;
 	text-align:center;
-}
-
-
-a:hover{
-	background-color:#FF0000;
-	
 }
 
 .author{
-	font-size:140%;
+	font-size:3.5vw;
 	text-align:center;
-	display:block;
-	clear:both;
 }
 
-.left{
-	background-color:rgb(255,255,255);
-	display:inline-block;
-	width: 40%;
-	float: left;
-	padding: 1% 0; 
+.books{
+	text-align:center;
 }
 
 div{
 	background-color:rgba(255,255,255,.7);
-	display:block;
 	padding:4%;
-	margin:4%;
-	border:4%;
+	margin:2%;
+	border:2%;
 }
 
 p{
-	font-size:120%;
-	color:rgb(139,0,0);
+	font-size:3vw;
 	font-family:sans-serif;
 }
 
@@ -142,8 +97,9 @@ footer{
 	font-family:Arial;
 	background-color:rgba(255,255,255,.7);
 	border:2%;
-	padding:2%;
+	padding:4%;
 	margin:4%;
+	font-size:80%;
 }
 
 footer a{
@@ -155,4 +111,49 @@ footer a{
 	border-radius: 5px; 
 	font-family:Arial;
 
+}
+
+
+
+@media screen and (min-width:820px){
+	header{
+		padding:2%;
+	}
+	
+	.books{
+		background-color:rgb(255,255,255);
+		display:inline-block;
+		width: 40%;
+		padding: 0.5% 0; 
+		text-align:center;
+	}
+	
+	.author{
+		font-size:2.5vw;
+		display:block;
+		clear:both;
+	}
+	
+	img{
+		width:50%;
+	}
+	
+	.main{
+		overflow:scroll;
+		overflow-x:hidden;
+		max-height:700px;
+	}
+	
+	h1{
+		font-size:240%;
+	}
+	
+	p{
+		font-size:120%;
+	}
+	
+	footer{
+		padding:2%;
+	}
+	
 }
