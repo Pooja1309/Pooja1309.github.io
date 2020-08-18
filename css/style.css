@@ -115,7 +115,7 @@ footer a{
 
 
 
-@media screen and (min-width:820px){
+@media screen and (min-width:720px){
 	header{
 		padding:2%;
 	}
@@ -138,11 +138,6 @@ footer a{
 		width:50%;
 	}
 	
-	.main{
-		overflow:scroll;
-		overflow-x:hidden;
-		max-height:700px;
-	}
 	
 	h1{
 		font-size:240%;
