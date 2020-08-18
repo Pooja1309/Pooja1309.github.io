@@ -166,10 +166,14 @@ header{
 	color:rgb(139,0,0);
 	background-color:rgba(255,255,255,.7);
 	border:1%;
-	padding:2%;
-	margin:1%;
+	padding:4%;
+	margin:0%;
 	font-family:Arial;
 	text-align:center;
+}
+
+header h1{
+	font-size:3vw;
 }
 
 footer{
@@ -227,7 +231,7 @@ body{
 }
 
 img{
-	width:15vw;
+	width:17vw;
 	padding:2%;
 }
 
@@ -246,6 +250,9 @@ section p{
 
 section h2{
 	font-size:2vw;
+	display:block;
+	text-align:center;
+	clear:both;
 }
 
 .row{
@@ -256,6 +263,7 @@ section h2{
 	display:inline-block;
 	width:50%;
 	float:left;
+	text-align:center;
 }
 
 .row{
