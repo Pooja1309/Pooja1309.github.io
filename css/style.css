@@ -1,3 +1,5 @@
+/*@media screen and (min-width:240px){
+
 header{
 	color:rgb(139,0,0);
 	background-color:rgba(255,255,255,.7);
@@ -39,11 +41,11 @@ a:hover{
 	background-color:#FF0000;
 }
 
-/*.active {
+.active {
 	background-color: #FF0000; 
 	color:white;
 	font-weight:bold;
-}*/
+}
 
 
 body{
@@ -64,6 +66,8 @@ section{
 	margin-bottom:2%;
 	padding:2%;
 	margin:4%;
+	overflow-y:scroll;
+	max-height:100vh;
 }
 
 h1{
@@ -112,10 +116,10 @@ footer a{
 	font-family:Arial;
 
 }
+}
 
 
-
-@media screen and (min-width:780px){
+@media screen and (min-width:680px){
 	header{
 		padding:2%;
 	}
@@ -134,9 +138,9 @@ footer a{
 		clear:both;
 	}
 	
-	body{
-		overflow-x:scroll;
-		max-height:70vh;
+	section{
+		overflow-y:scroll;
+		max-height:100vh;
 	}
 	
 	img{
@@ -156,4 +160,104 @@ footer a{
 		padding:2%;
 	}
 	
+}*/
+
+header{
+	color:rgb(139,0,0);
+	background-color:rgba(255,255,255,.7);
+	border:1%;
+	padding:2%;
+	margin:1%;
+	font-family:Arial;
+	text-align:center;
+}
+
+footer{
+	text-align:center;
+	font-family:Arial;
+	background-color:rgba(255,255,255,.7);
+	border:2%;
+	padding:4%;
+	margin:4%;
+	font-size:80%;
+}
+
+footer a{
+	background-color:#000000;
+	color:#FFFFFF;
+	padding: 10px;
+	margin: 1%; 
+	text-decoration: none; 
+	border-radius: 5px; 
+	font-family:Arial;
+
+}
+
+
+nav a{
+	background-color:#000000;
+	padding: 10px;
+	margin: 1%; 
+	text-decoration: none; 
+	border-radius: 5px; 
+	color:#FFFFFF;
+	font-size:100%;
+	transition-property: background-color;
+	transition-duration:.2s;
+	transition-timing-function: linear;
+	transition-delay: .2s;
+}
+
+a:hover{
+	background-color:#FF0000;
+}
+
+.active {
+	background-color: #FF0000; 
+	color:white;
+	font-weight:bold;
+}
+
+body{
+	background-color:rgba(255,255,255,.7);
+	margin:4%;
+	background-image: url("../images/body.jpg");
+	background-size:100%;
+	background-repeat:repeat;
+}
+
+img{
+	width:15vw;
+	padding:2%;
+}
+
+section{
+	background-color:rgb(255,255,255);
+	text-align:center;
+	margin:2%;
+	padding:2%;
+	overflow-y:scroll;
+	max-height:100vh;
+}
+
+section p{
+	font-size:2vw;
+}
+
+section h2{
+	font-size:2vw;
+}
+
+.row{
+	display:block;
+}
+
+.books{
+	display:inline-block;
+	width:50%;
+	float:left;
+}
+
+.row{
+	display:block;
 }
